@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Santo Tech – Full-Cycle Product Design & Development</title>
+  <meta name="description" content="Santo Tech offers full-cycle expertise in product design and development, serving businesses across all industries globally with custom software solutions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="#" class="logo" id="logo-link">
+        <span class="logo-text">
+          <span class="logo-line1">SANTO</span>
+          <span class="logo-line2">TECH</span>
+        </span>
+      </a>
+
+      <!-- Nav Links -->
+      <nav class="nav-links" id="nav-links">
+        <a href="#services" class="nav-item has-dropdown" id="nav-services">
+          Services <span class="dropdown-arrow">&#8964;</span>
+          <div class="dropdown-menu">
+            <a href="#">Web Development</a>
+            <a href="#">Mobile Apps</a>
+            <a href="#">Cloud Solutions</a>
+            <a href="#">AI & ML</a>
+            <a href="#">UI/UX Design</a>
+          </div>
+        </a>
+        <a href="#case-studies" class="nav-item" id="nav-case-studies">Case Studies</a>
+        <a href="#company" class="nav-item" id="nav-company">Company</a>
+        <a href="#careers" class="nav-item" id="nav-careers">Careers</a>
+        <a href="#blog" class="nav-item" id="nav-blog">Blog</a>
+        <a href="#contact" class="nav-cta" id="nav-cta">
+          <span class="cta-hand">👋</span> Let's Talk <span class="cta-arrow">↗</span>
+        </a>
+      </nav>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <main>
+    <section class="hero" id="hero">
+      <!-- Hex background pattern -->
+      <div class="hex-bg" aria-hidden="true">
+        <!-- Row of hexagons with icons -->
+        <div class="hex-grid">
+          <div class="hex-item hex-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+          <div class="hex-item hex-2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg></div>
+          <div class="hex-item hex-3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div class="hex-item hex-4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg></div>
+          <div class="hex-item hex-5"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg></div>
+          <div class="hex-item hex-6"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+          <div class="hex-item hex-7"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+          <div class="hex-item hex-8"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div>
+          <div class="hex-item hex-9" style="font-weight:700; font-size:10px; letter-spacing:1px;">AI</div>
+          <div class="hex-item hex-10"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+          <div class="hex-item hex-11"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <div class="hex-item hex-12"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></div>
+        </div>
+        <!-- Teal accent lines -->
+        <div class="teal-line teal-line-left"></div>
+        <div class="teal-line teal-line-right"></div>
+      </div>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <h1 class="hero-title" id="hero-title">
+          A Full-Cycle Expertise in Product Design &amp; Development
+        </h1>
+        <h2 class="hero-subtitle" id="hero-subtitle">
+          Serving Businesses Across All Industries Globally
+        </h2>
+        <p class="hero-desc" id="hero-desc">
+          Partner with us to develop, deploy, and maintain end-to-end<br />
+          custom software solutions tailored to your needs.
+        </p>
+
+        <!-- Feature Pills with dashed connector -->
+        <div class="features-wrapper" id="features-wrapper" aria-label="Key features">
+          <div class="dashed-connector top-connector" aria-hidden="true"></div>
+          <div class="features-row row-top">
+            <div class="feature-pill" id="pill-faster">
+              <span class="pill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              </span>
+              Faster Time to Market
+            </div>
+            <div class="feature-pill" id="pill-cloud">
+              <span class="pill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+              </span>
+              Private Cloud
+            </div>
+            <div class="feature-pill" id="pill-premise">
+              <span class="pill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              </span>
+              On Premise
+            </div>
+            <div class="feature-pill" id="pill-secured">
+              <span class="pill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+              </span>
+              100% Secured
+            </div>
+          </div>
+          <div class="dashed-connector bottom-connector" aria-hidden="true"></div>
+          <div class="features-row row-bottom">
+            <div class="feature-pill" id="pill-data">
+              <span class="pill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </span>
+              Own Your Data and IP
+            </div>
+            <div class="feature-pill" id="pill-team">
+              <span class="pill-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </span>
+              Our Full Stack Team
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero CTA -->
+        <a href="#contact" class="hero-cta" id="hero-cta">
+          Let's Talk <span class="cta-arrow-inline">→</span>
+        </a>
+      </div>
+
+      <!-- Trust Bar -->
+      <div class="trust-bar" id="trust-bar">
+        <p>
+          Trusted by Funded Startups to
+          <span class="trust-highlight">Fortune 500+ Brands</span>
+          in 12+ Countries
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section class="services-section" id="services">
+      <div class="section-container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">End-to-end technology solutions crafted for growth</p>
+        <div class="services-grid">
+          <div class="service-card" id="service-web">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3>Web Development</h3>
+            <p>Scalable, high-performance web apps built with cutting-edge technologies.</p>
+          </div>
+          <div class="service-card" id="service-mobile">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            </div>
+            <h3>Mobile Apps</h3>
+            <p>Native and cross-platform mobile experiences for iOS and Android.</p>
+          </div>
+          <div class="service-card" id="service-cloud">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h3>Cloud Solutions</h3>
+            <p>Secure, private cloud deployments with full data ownership and control.</p>
+          </div>
+          <div class="service-card" id="service-ai">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M7 7h10M7 12h10M7 17h7"/></svg>
+            </div>
+            <h3>AI & Machine Learning</h3>
+            <p>Intelligent automation and data-driven insights to power your business.</p>
+          </div>
+          <div class="service-card" id="service-ui">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Beautiful, intuitive interfaces that delight users and drive conversions.</p>
+          </div>
+          <div class="service-card" id="service-devops">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>DevOps & CI/CD</h3>
+            <p>Streamlined pipelines for faster delivery, reliability, and zero downtime.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CASE STUDIES ===== -->
+    <section class="case-section" id="case-studies">
+      <div class="section-container">
+        <h2 class="section-title light">Case Studies</h2>
+        <p class="section-subtitle light">Real results for real businesses</p>
+        <div class="case-grid">
+          <div class="case-card" id="case-1">
+            <div class="case-tag">FinTech</div>
+            <h3>Banking Platform Modernization</h3>
+            <p>Migrated legacy infrastructure to cloud, reducing costs by 40% and improving uptime to 99.99%.</p>
+            <a href="#" class="case-link">Read More →</a>
+          </div>
+          <div class="case-card" id="case-2">
+            <div class="case-tag">HealthCare</div>
+            <h3>Telemedicine App Launch</h3>
+            <p>Built HIPAA-compliant telehealth platform serving 500K+ patients across 8 countries.</p>
+            <a href="#" class="case-link">Read More →</a>
+          </div>
+          <div class="case-card" id="case-3">
+            <div class="case-tag">eCommerce</div>
+            <h3>Retail Digital Transformation</h3>
+            <p>End-to-end commerce platform with AI recommendations, boosting sales by 65%.</p>
+            <a href="#" class="case-link">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMPANY / ABOUT ===== -->
+    <section class="company-section" id="company">
+      <div class="section-container company-layout">
+        <div class="company-text">
+          <h2 class="section-title">About Santo Tech</h2>
+          <p>We are a globally distributed team of engineers, designers, and strategists united by a passion for building exceptional digital products. With over a decade of experience, we partner with startups and Fortune 500 companies to turn bold ideas into world-class software.</p>
+          <ul class="company-stats">
+            <li><span class="stat-number">500+</span><span class="stat-label">Projects Delivered</span></li>
+            <li><span class="stat-number">12+</span><span class="stat-label">Countries Served</span></li>
+            <li><span class="stat-number">200+</span><span class="stat-label">Expert Engineers</span></li>
+            <li><span class="stat-number">98%</span><span class="stat-label">Client Retention</span></li>
+          </ul>
+        </div>
+        <div class="company-visual">
+          <div class="visual-card">
+            <div class="vc-icon">🌍</div>
+            <div class="vc-text">Global Reach, Local Expertise</div>
+          </div>
+          <div class="visual-card accent">
+            <div class="vc-icon">⚡</div>
+            <div class="vc-text">Agile. Scalable. Reliable.</div>
+          </div>
+          <div class="visual-card">
+            <div class="vc-icon">🔐</div>
+            <div class="vc-text">Security-First Development</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT CTA ===== -->
+    <section class="contact-section" id="contact">
+      <div class="section-container contact-inner">
+        <h2 class="contact-title">Ready to Build Something Great?</h2>
+        <p class="contact-desc">Let's discuss your project and how Santo Tech can help bring your vision to life.</p>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+          </div>
+          <textarea id="message" name="message" placeholder="Tell us about your project..." rows="4" required></textarea>
+          <button type="submit" class="submit-btn" id="submit-btn">
+            Send Message <span>→</span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo">
+          <span>SANTO</span><br/><span>TECH</span>
+        </span>
+        <p>Full-Cycle Expertise in Product Design & Development. Building tomorrow's solutions today.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <a href="#">Web Development</a>
+        <a href="#">Mobile Apps</a>
+        <a href="#">Cloud Solutions</a>
+        <a href="#">AI &amp; ML</a>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>Connect</h4>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter / X</a>
+        <a href="#">GitHub</a>
+        <a href="#">Dribbble</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Santo Tech. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

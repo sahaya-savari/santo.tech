@@ -4,14 +4,17 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 
 > A premium enterprise-grade website replica inspired by **Contus Tech**, redesigned and rebranded as **Santo Tech** — a Fortune-500 AI software company aesthetic built with pure HTML, CSS, and JavaScript.
 
 ---
 
-## 🌐 Live Preview
+## 🌐 Live Demo
 
-Run locally at → **http://localhost:3000**
+🔗 **[https://sahaya-savari.github.io/santo.tech/](https://sahaya-savari.github.io/santo.tech/)**
+
+> Also available locally at → `http://localhost:3000`
 
 ---
 
@@ -135,6 +138,9 @@ Inspired by the design language of:
 ## 👤 Author
 
 **Santo** — [@sahaya-savari](https://github.com/sahaya-savari)
+
+> 🌐 Live site: [sahaya-savari.github.io/santo.tech](https://sahaya-savari.github.io/santo.tech/)
+> 📦 Repo: [github.com/sahaya-savari/santo-tech](https://github.com/sahaya-savari/santo-tech)
 
 ---
 

@@ -12,7 +12,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **[https://sahaya-savari.github.io/santo.tech/](https://sahaya-savari.github.io/santo.tech/)**
+🔗 **[https://sahayasavari.web.app](https://sahayasavari.web.app)**
 
 > Also available locally at → `http://localhost:3000`
 
@@ -139,8 +139,10 @@ Inspired by the design language of:
 
 **Santo** — [@sahaya-savari](https://github.com/sahaya-savari)
 
-> 🌐 Live site: [sahaya-savari.github.io/santo.tech](https://sahaya-savari.github.io/santo.tech/)
-> 📦 Repo: [github.com/sahaya-savari/santo-tech](https://github.com/sahaya-savari/santo-tech)
+> 🌐 Live site: [sahayasavari.web.app](https://sahayasavari.web.app)
+> 📦 Repo: [github.com/sahaya-savari/santo.tech](https://github.com/sahaya-savari/santo.tech)
+> 📧 Email: sahayasavari.info@gmail.com
+> 💼 LinkedIn: [in/sahayasavari](https://linkedin.com/in/sahayasavari)
 
 ---
 

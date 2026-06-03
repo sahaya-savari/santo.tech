@@ -67,7 +67,19 @@
             text-decoration: none !important;
         }
       </style>
-    
+    <style>
+      /* Hide Let's Talk CTA button from nav */
+      .contusmain-menu li.menu-lists.cta-action-btn,
+      li.menu-lists.cta-action-btn {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        pointer-events: none !important;
+      }
+    </style>
  
    </head>
    <body id="homepage">

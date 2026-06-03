@@ -68,16 +68,23 @@
         }
       </style>
     <style>
-      /* Hide Let's Talk CTA button from nav */
-      .contusmain-menu li.menu-lists.cta-action-btn,
-      li.menu-lists.cta-action-btn {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        width: 0 !important;
-        height: 0 !important;
-        overflow: hidden !important;
-        pointer-events: none !important;
+      /* Desktop: Hide Let's Talk CTA from nav */
+      @media screen and (min-width: 769px) {
+        .contusmain-menu li.menu-lists.cta-action-btn,
+        li.menu-lists.cta-action-btn {
+          display: none !important;
+        }
+      }
+      /* Mobile: Hide Let's Talk CTA from outside hamburger, but show inside */
+      @media screen and (max-width: 768px) {
+        a#overview_cta.contact-sales-header-link {
+          display: none !important;
+        }
+        .contusmain-menu li.menu-lists.cta-action-btn {
+          display: block !important;
+          visibility: visible !important;
+          opacity: 1 !important;
+        }
       }
     </style>
  
@@ -3091,7 +3098,7 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
        
 
        <style>
-       .left-heading{display:block}.auto-wrapper{display:flex;align-items:flex-start;justify-content:space-between;margin:60px 0 20px 0}.models{width:32%;border-radius:24px;padding:80px 40px 40px 40px;background-size:cover;background-repeat:no-repeat}.models span{color:#919191;font-size:20px}.models h5{font-size:24px;line-height:32px;color:#000;font-weight:700;padding-bottom:55px;margin:0;position:relative}.models h5:after{content:"";position:absolute;left:0;bottom:25px;width:100%;height:1px;background:#bfbfbf;opacity:.2}.models ul li{color:#222;font-size:18px;line-height:28px;margin-bottom:20px;position:relative;padding-left:40px}.models ul li strong{color:#165b2a}.models ul li:before{content:'';position:absolute;width:24px;height:24px;background-image:url(assets/image/new-home/tick.svg);background-size:cover;left:5px;top:5px}.models img{height:auto;display:block;width:100%}@media screen and (max-width:1024px){.models p{font-size:16px}.models img{height:auto;display:none;width:auto;margin:auto}.models{padding:40px 20px 20px 20px}.models ul li{font-size:16px}}@media screen and (max-width:820px){#mobile-baba{display:none}#mobile-baba.active{display:block}.auto-wrapper{flex-wrap:wrap;margin-bottom:0}.models{width:100%;margin-bottom:20px;padding:34px 20px}.models:last-child{margin-bottom:0}.models h5{font-size:20px;line-height:24px;padding-bottom:30px;width:75%}.models h5:after{bottom:15px}.models ul li:before{width:16px;height:16px}.models ul li{padding-left:30px;font-size:16px;line-height:20px}}@media screen and (max-width:641px){.models img{display:block}}
+        .left-heading{display:block}.auto-wrapper{display:flex;align-items:stretch;justify-content:space-between;margin:60px 0 20px 0}.models{width:32%;border-radius:24px;padding:80px 40px 40px 40px;background-size:cover;background-repeat:no-repeat;display:flex;flex-direction:column;}.models span{color:#919191;font-size:20px}.models h5{font-size:24px;line-height:32px;color:#000;font-weight:700;padding-bottom:55px;margin:0;position:relative}.models h5:after{content:"";position:absolute;left:0;bottom:25px;width:100%;height:1px;background:#bfbfbf;opacity:.2}.models ul{flex-grow:1;}.models ul li{color:#222;font-size:18px;line-height:28px;margin-bottom:20px;position:relative;padding-left:40px}.models ul li strong{color:#165b2a}.models ul li:before{content:'';position:absolute;width:24px;height:24px;background-image:url(assets/image/new-home/tick.svg);background-size:cover;left:5px;top:5px}.models img{height:auto;display:block;width:100%}@media screen and (max-width:1024px){.models p{font-size:16px}.models img{height:auto;display:none;width:auto;margin:auto}.models{padding:40px 20px 20px 20px}.models ul li{font-size:16px}}@media screen and (max-width:820px){#mobile-baba{display:none}#mobile-baba.active{display:block}.auto-wrapper{flex-wrap:wrap;margin-bottom:0}.models{width:100%;margin-bottom:20px;padding:34px 20px}.models:last-child{margin-bottom:0}.models h5{font-size:20px;line-height:24px;padding-bottom:30px;width:75%}.models h5:after{bottom:15px}.models ul li:before{width:16px;height:16px}.models ul li{padding-left:30px;font-size:16px;line-height:20px}}@media screen and (max-width:641px){.models img{display:block}}
        </style>
     <section class="section_container success-stories" style="background:#F6F6F8;">
         <div class="container">
@@ -3205,6 +3212,8 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
         width: 23.5%;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
         position: relative;
         padding: 40px 20px;
         transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
